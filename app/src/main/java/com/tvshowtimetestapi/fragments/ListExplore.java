@@ -87,8 +87,6 @@ public class ListExplore extends Fragment {
             public boolean onLoadMore(int page, int totalItemsCount) {
 
                 pageNum += 1;
-                Toast.makeText(getActivity(), "MOAR" + String.valueOf(page), Toast.LENGTH_SHORT)
-                        .show();
                 getListExplore(page);
                 return true;
             }
